@@ -1,0 +1,14 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: deploy-a-vm
+  description: deply-myvm
+  annotations:
+    backstage.io/kubernetes-id: deploy-a-vm
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: neenspa/deploy-a-vm
+spec:
+  type: api
+  lifecycle: production
+  owner: amargheritini
